@@ -1,4 +1,4 @@
-baseurl: 'https://reecedobro.github.io/engineers-council-website/'
+baseurl: "/engineers-council-website/"
 permalink: pretty
 title: 'Jekyll Serif'
 
