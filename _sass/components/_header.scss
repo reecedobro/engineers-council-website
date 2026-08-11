@@ -1,6 +1,6 @@
 .header {
   color: $primary;
-  background-color: #ffffff;
+  background: linear-gradient(90deg,#ffffff 0%,#f5d6d6 45%,#cc0000 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,3 +25,4 @@
     }
   }
 }
+
