@@ -1,23 +1,16 @@
 .header {
-  color: $primary;
-  background: linear-gradient(
-    90deg,
-    #ffffff 0%,
-    #f8d0d0 35%,
-    #cc0000 100%
-  ) !important;
-
+  color: #ffffff;
+  background: #cc0000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid $white-offset;
+  border-bottom: none;
   padding: 10px 0px;
 
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent !important;
   }
 
   &.header-absolute {
