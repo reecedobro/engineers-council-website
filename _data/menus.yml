@@ -1,17 +1,31 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "About Us"
+    url: "/about/"
     weight: 2
-  - name: "Team"
+    submenu:
+      - name: "Who We Are"
+        url: "/about/"
+      - name: "Leadership"
+        url: "/leadership/"
+      - name: "History"
+        url: "/history/"
+      - name: "Join Us"
+        url: "/join/"
+  - name: "Affiliations"
     url: "/team/"
     weight: 3
-  - name: "About"
+  - name: "Appropriations"
     url: "/about/"
     weight: 4
-  - name: "Contact"
+  - name: "Contact Us"
     url: "/contact/"
     weight: 5
-
+  - name: "Member Resources"
+    url: "/contact/"
+    weight: 6
 footer:
   - name: "Home"
     url: "/"
