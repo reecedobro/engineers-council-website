@@ -77,3 +77,24 @@
 .lock-scroll {
   overflow: hidden;
 }
+.mobile-dropdown-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.mobile-dropdown-toggle .dropdown-arrow {
+  margin-left: 5px;
+  font-size: 0.7em;
+}
+
+.main-menu-mobile .has-dropdown .dropdown-menu {
+  display: none;
+}
+
+.main-menu-mobile .has-dropdown.open .dropdown-menu {
+  display: block;
+}
